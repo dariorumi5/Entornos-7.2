@@ -1,9 +1,11 @@
 EJERCICIO 1:
 ```mermaid
-usecaseDiagram
-actor Usuario
-
-Usuario --> (Encender luces)
-Usuario --> (Apagar luces)
-
+graph LR 
+Usuario((Usuario))
+subgraph "Sistema de Luces"
+CU1([Encender Luces])
+CU2([Apagar Luces])
+end
+Usuario --- CU1
+Usuario --- CU2
 ```
