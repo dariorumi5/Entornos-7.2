@@ -1,1 +1,7 @@
-# Entornos-7.2
+´´´Mermaid
+EJERCICIO 1:
+usecaseDiagram
+actor Usuario
+
+Usuario --> (Encender luces)
+Usuario --> (Apagar luces)
